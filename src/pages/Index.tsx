@@ -1,10 +1,9 @@
-
 import { Link } from 'react-router-dom';
 import Layout from '../components/Layout';
 import ProductCard from '../components/ProductCard';
 import { mockProducts, mockCategoryData } from '../data/mockData';
 import { Button } from '@/components/ui/button';
-import { ArrowRight, Leaf, RefreshCw, ShieldCheck, Truck } from 'lucide-react';
+import { ArrowRight, Leaf, RefreshCw, ShieldCheck, Truck, Star } from 'lucide-react';
 
 const Index = () => {
   const featuredProducts = mockProducts.filter(product => product.featured);

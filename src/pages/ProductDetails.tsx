@@ -6,6 +6,7 @@ import { mockProducts } from '../data/mockData';
 import { Product } from '../types';
 import { Button } from '@/components/ui/button';
 import { useCart } from '../contexts/CartContext';
+import ProductCard from '../components/ProductCard';
 import {
   Tabs,
   TabsContent,
